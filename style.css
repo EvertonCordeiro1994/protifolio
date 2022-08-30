@@ -112,7 +112,7 @@ body {
     }
 }
 
-@media(max-width: 415px){
+@media(max-width: 770px){
     * {
         margin: 0;
         padding: 0;
@@ -120,8 +120,13 @@ body {
     }
 
     #box_nav{
-        column-gap: 220px;
+        column-gap: 320px;
     }
+
+    #paragrafoSobre01{
+        height: 400px;
+    }
+
     .cardsfull{
         display: none;
     }
@@ -136,7 +141,7 @@ body {
     }
     
     #text_projeto{
-        width: 300px;
+        width: 400px;
     }
 
     #primeiroTitulo{
@@ -147,4 +152,7 @@ body {
         width: 200px;
     }
 
+    #h3contato{
+        font-size: 20px;
+    }
 }
