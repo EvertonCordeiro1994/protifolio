@@ -142,6 +142,7 @@ body {
     
     #text_projeto{
         width: 400px;
+        margin: auto;
     }
 
     #primeiroTitulo{
