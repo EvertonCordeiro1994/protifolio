@@ -126,6 +126,10 @@ body {
     #paragrafoSobre01{
         height: 600px;
     }
+     
+       #paragrafoSobre02{
+        height: 600px;
+    }
 
     .cardsfull{
         display: none;
