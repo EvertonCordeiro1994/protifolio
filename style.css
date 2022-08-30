@@ -124,11 +124,15 @@ body {
     }
 
     #paragrafoSobre01{
-        height: 450px;
+        height: 400px;
     }
      
     #paragrafoSobre02{
         height: 350px;
+    }
+
+     #paragrafoSobre03{
+        height: 300px;
     }
 
     .cardsfull{
