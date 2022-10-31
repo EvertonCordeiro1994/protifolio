@@ -5,388 +5,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://raw.githubusercontent.com/EvertonCordeiro1994/protifolio/main/favicon.ico"
-        type="image/x-icon">
-    <title>Portifólio Éverton cordeiro</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Éverton Cordeiro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/style.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark" id="container">
+        <nav class="navbar navbar-expand-lg  nav-bg">
             <div class="container-fluid">
-                <div class="d-flex">
-                    <div class="p-2 flex-fill d-flex" id="box_nav">
-                        <a class="navbar-brand" href="#">
-                            <h6>Éverton <br> Cordeiro</h6>
-                        </a>
-                        <button id="botaonav" class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="p-2 flex-fill">
+                <a id="text-nav" class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link font_navbar" href="#home">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link font_navbar font_lista" href="#bio">Bio</a>
+                            <a class="nav-link" href="#">HABILIDADES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link font_navbar" href="#projetos">Projetos</a>
+                            <a class="nav-link" href="#">PROJETOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link font_navbar font_lista" href="#contato">Contato</a>
+                            <a class="nav-link ">CONTATO</a>
                         </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-
     <main>
-        <section class="pagina" id="home">
-            <div
-                class="d-flex flex-row mb-3 d-flex align-items-center d-flex justify-content-center d-flex justify-content-around">
-                <div class="p-2 ">
-                    <h1 id="primeiroTitulo">
-                        Portifólio <br> de <br> Éverton Cordeiro
-                    </h1>
-                    <div class="d-flex justify-content-center">
-                        <p id="primeiroparagrafo">DEV Junior em formação</p>
+        <section id="home">
+            <div class="d-flex flex-row mb-3" id="screen-home">
+                <div class="p-2 text-center" id="screen-home-left-side">
+                    <h2>Olá, eu sou o</h2>
+                    <h1>Éverton Cordeiro</h1>
+                    <p>Desenvolvedor Front-End</p>
+                    <p>tech tools</p>
+                    <div class="d-flex flex-row mb-3" id="screen-home-left-side-icons">
+                        
+                     <img id="icon-html" class="icon-dev" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+          
+                     <img id="icon-css" class="icon-dev"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+          
+                     <img id="icon-bootstrap" class="icon-dev" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" />
+          
+
+                     <img id="icon-js" class="icon-dev" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"/>
+          
+          
                     </div>
-                </div>
-                <div class="p-2">
-                    <img src="https://raw.githubusercontent.com/EvertonCordeiro1994/protifolio/main/dev02.png" alt=""
-                        id="img_home">
-                </div>
-            </div>
-        </section>
-
-        <section class="pagina" id="bio">
-            <div id="containerimg" class="textoMarginAuto"><img
-                    src="https://raw.githubusercontent.com/EvertonCordeiro1994/protifolio/main/perfil.png"
-                    alt="Foto perfil" id="img_perfil02"></div>
-            <div class="d-flex flex-row mb-3 ">
-                <div class="p-2">
-                    <img src="https://raw.githubusercontent.com/EvertonCordeiro1994/protifolio/main/perfil.png"
-                        alt="Foto perfil" id="img_perfil">
-                </div>
-                <div class="p-2" id="box_sobre">
-                    <div class="carousel slide carousel-fade">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                            <div class="carousel-indicators" id="indicador">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                    class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                    aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                    aria-label="Slide 3"></button>
-                            </div>
-                            <div class="p-2 d-block w-100">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item carrosselItem  active" id="paragrafoSobre01">
-                                        <h3> Sobre mim</h3>
-                                        <p >
-                                            Sou uma pessoa que adora tecnologia desde pequeno, desde que
-                                            ganhei meu primeiro computador, se tornou um Hobby, lidar com "questões da
-                                            informática". E chegou um momento que eu desci aprender como funcionam as
-                                            páginas da internet e conheci o Devtools do Google, ferramenta que eu
-                                            utilizei para pregar "peças" em amigos, mudando meu saldo em jogos no
-                                            computador ou fingindo ter "hackeado"
-                                            alguma página da web. E acabei cada vez mais me maravilhando com o que eu
-                                            poderia fazer "editando " essas páginas, Então desci estudar programaço.
-                                            Comecei com a linguagem Python, mas parei
-                                            as aulas por não conseguir fazer "o que eu queria", coisa que hoje eu faço
-                                            graças as ferramentas de desenvolvimento web.
-                                        </p>
-                                    </div>
-                                    <div class="carousel-item carrosselItem" id="paragrafoSobre02">
-                                        <h3> Minhas hard Skills e Soft Skills </h3>
-                                        <p>
-                                            Como minhas principais habilidades, as que gosto de destacar são meu
-                                            conhecimento em inglês, no qual não sou fluente mas tenho uma boa
-                                            comunicação e leitura, meu conhecimento nas ferramentas photoshop e premier
-                                            da adobe e nos dias atuais meu conhecimento recém adquirido em HTML, CSS e
-                                            JavaScript onde meu forte está sendo as duas primeiras linguagens. E como
-                                            Soft skills acredito que o que mais se destaca em mim são minha facilidade
-                                            de aprendizado e comunicação em grupo.
-                                        </p>
-                                    </div>
-                                    <div class="carousel-item carrosselItem" id="paragrafoSobre03">
-                                        <h3> Mais um pouco sobre mim </h3>
-                                        <p>
-                                            Meu jogo favorito: Fortnite. <br>
-                                            Minha série favorita: Game of thrones. <br>
-                                            Meu esporte favorito: Jiu jitsu. <br>
-                                            Bebida favorita não alcoólica: Refrigerante sabor Guaraná. <br>
-                                            Bebida favorita alcoólica: Jack Daniels de Maça verde.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-2">
-                                <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="pagina" id="projetos">
-            <div class="d-flex flex-column mb-3 text-center justify-content-center ">
-                <div class="p-2">
-                    <h1>Meus Projetos</h1>
-                </div>
-                <div class="p-2 id=" >
-                    <div id="text_projeto">
-                        <p id="p_projeto">
-                            Aqui estão alguns projetos feitos por mim enquanto eu acompanhava algumas aulas, e também
-                            alguns projetos pessoais.
-                            As tecnologia empregadas nos projetos são: <abbr
-                                title="hypertext markup language">HTML</abbr>,<abbr
-                                title="cascading style sheets">CSS</abbr> e <abbr title="javaScript">JS</abbr>.
-                        </p>
+                    <div class="d-flex flex-row " id="div-btn-home">
+                        <button type="button" class="btn01 btn btn-warning">Download CV</button>
+                        <button type="button" class="btn01 btn btn-warning">Whatsapp</button>
                     </div>
                 </div>
 
-                <!-- carrossel mobile -->
-                <div id="carouselExampleControls" class="carousel slide carrosselmobile" data-bs-ride="carousel">
-                    <div class="carousel-inner ">
-                        <div class="carousel-item active">
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://raw.githubusercontent.com/EvertonCordeiro1994/protifolio/main/calc.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="color: black;">Calculadora simples</h5>
-                                    <p class="card-text" style="color: black;">
-                                        Este projeto foi iniciado quando eu estava assistindo a um tutorial no Youtube e
-                                        após o termino do vídeo fiz algumas alterações visuais utilizando meu
-                                        conhecimento com a tecnologia CSS.
-                                    </p>
-                                    <a href="https://minhacalculadorav2.netlify.app/" target="_blank"
-                                        class="btn btn-primary">Ver o projeto</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://raw.githubusercontent.com/EvertonCordeiro1994/protifolio/main/lp.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="color: black;">Lading Page</h5>
-                                    <p class="card-text" style="color: black;">
-                                        Projeto feito durante uma live de um canal no Youtube, que abordou como criar
-                                        sites responsivos com a utilização do @media no arquivo .CSS.
-                                    </p>
-                                    <a href="https://ladingpageresponsive.netlify.app/" target="_blank"
-                                        class="btn btn-primary">Ver o projeto
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card" style="width: 18rem;">
-                                <img src="https://raw.githubusercontent.com/EvertonCordeiro1994/protifolio/main/crono.png"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="color: black;">Cronômetro simples</h5>
-                                    <p class="card-text" style="color: black;" style="color: black;">
-                                        Com esse projeto foi possível que eu aplicasse o que aprendi em algumas vídeos
-                                        aulas sobre JavaScript. E além do Js pude colocar em prática o uso do framework
-                                        bootstrap.
-                                    </p>
-                                    <a href="https://cronometrosimples.netlify.app/" target="_blank"
-                                        class="btn btn-primary">Ver o projetore</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- carrossel mobile -->
-            </div>
-
-            <div class="p-2 d-flex justify-content-center cardsfull">
-                <div class="d-flex flex-row mb-3 cardsfull ">
-                    <div class="p-2">
-                        <div class="card cardsfull" style="width: 18rem;">
-                            <img src="https://raw.githubusercontent.com/EvertonCordeiro1994/protifolio/main/calc.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;">Calculadora simples</h5>
-                                <p class="card-text" style="color: black;">
-                                    Este projeto foi iniciado quando eu estava assistindo a um tutorial no Youtube e
-                                    após o termino do vídeo fiz algumas alterações visuais utilizando meu
-                                    conhecimento com a tecnologia CSS.
-                                </p>
-                                <a href="https://minhacalculadorav2.netlify.app/" target="_blank"
-                                    class="btn btn-primary">Ver o projeto</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-2">
-                        <div class="card cardsfull" style="width: 18rem;">
-                            <img src="https://raw.githubusercontent.com/EvertonCordeiro1994/protifolio/main/lp.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;">Lading Page</h5>
-                                <p class="card-text" style="color: black;">
-                                    Projeto feito durante uma live de um canal no Youtube, que abordou como criar
-                                    sites responsivos com a utilização do @media no arquivo .CSS.
-                                </p>
-                                <a href="https://ladingpageresponsive.netlify.app/" target="_blank"
-                                    class="btn btn-primary">Ver o projeto
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-2">
-                        <div class="card cardsfull" style="width: 18rem;">
-                            <img src="https://raw.githubusercontent.com/EvertonCordeiro1994/protifolio/main/crono.png"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;">Cronômetro simples</h5>
-                                <p class="card-text" style="color: black;" style="color: black;">
-                                    Com esse projeto foi possível que eu aplicasse o que aprendi em algumas vídeos
-                                    aulas sobre JavaScript. E além do Js pude colocar em prática o uso do framework
-                                    bootstrap.
-                                </p>
-                                <a href="https://cronometrosimples.netlify.app/" target="_blank"
-                                    class="btn btn-primary">Ver o projetore
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="p-2 d-flex justify-content-center ">
-                <div class="d-flex flex-row mb-3 cardsfull01">
-                    <div class="p-2">
-                        <div>
-                            <div class="card cardsfull01" style="width: 18rem;">
-                                <img src="https://raw.githubusercontent.com/EvertonCordeiro1994/protifolio/main/calc.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="color: black;">Calculadora simples</h5>
-                                    <p class="card-text" style="color: black;">
-                                        Este projeto foi iniciado quando eu estava assistindo a um tutorial no Youtube e
-                                        após o termino do vídeo fiz algumas alterações visuais utilizando meu
-                                        conhecimento com a tecnologia CSS.
-                                    </p>
-                                    <a href="https://minhacalculadorav2.netlify.app/" target="_blank"
-                                        class="btn btn-primary">Ver o projeto</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="p-2">
-                            <div class="card cardsfull01" style="width: 18rem;">
-                                <img src="https://raw.githubusercontent.com/EvertonCordeiro1994/protifolio/main/lp.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="color: black;">Lading Page</h5>
-                                    <p class="card-text" style="color: black;">
-                                        Projeto feito durante uma live de um canal no Youtube, que abordou como criar
-                                        sites responsivos com a utilização do @media no arquivo .CSS.
-                                    </p>
-                                    <a href="https://ladingpageresponsive.netlify.app/" target="_blank"
-                                        class="btn btn-primary">Ver o projeto
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-2">
-                        <div class="card cardsfull01" style="width: 18rem;">
-                            <img src="https://raw.githubusercontent.com/EvertonCordeiro1994/protifolio/main/crono.png"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;">Cronômetro simples</h5>
-                                <p class="card-text" style="color: black;" style="color: black;">
-                                    Com esse projeto foi possível que eu aplicasse o que aprendi em algumas vídeos
-                                    aulas sobre JavaScript. E além do Js pude colocar em prática o uso do framework
-                                    bootstrap.
-                                </p>
-                                <a href="https://cronometrosimples.netlify.app/" target="_blank"
-                                    class="btn btn-primary">Ver o projetore
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="pagina" id="contato">
-            <div class="d-flex flex-column mb-3 text-center">
-                <div class="p-2">
-                    <h1>Quer saber mais um pouco sobre mim ?</h1>
-                    <h3 id="h3contato">Entre em contato através dos canais abaixo:</h3>
-
-                </div>
-                <div class="p-2 d-flex justify-content-center">
-                    <div class="d-flex flex-row mb-3">
-                        <div class="p-2">
-                            <a href="https://www.linkedin.com/in/everton-cordeiro-28361a235" target="_blank"
-                                style="text-decoration: none;">
-                                <iconify-icon inline icon="akar-icons:linkedin-box-fill" style="color: white;"
-                                    width="50">
-                                </iconify-icon>
-                                <h5>Linkedin</h5>
-                            </a>
-                        </div>
-                        <div class="p-2">
-                            <a href="https://github.com/EvertonCordeiro1994" target="_blank"
-                                style="text-decoration: none;">
-                                <iconify-icon inline icon="akar-icons:github-fill" style="color: white;" width="50">
-                                </iconify-icon>
-                                <h5>Github</h5>
-                            </a>
-                        </div>
-                        <div class="p-2">
-                            <a href="mailto:evertoncordeiro@icloud.com" style="text-decoration: none;">
-                                <iconify-icon inline icon="carbon:email" style="color: white;" width="50">
-                                </iconify-icon>
-                                <h5>Email</h5>
-                            </a>
-                        </div>
-                    </div>
+                <div id="div-img01" class="p-2 d-flex ">
+                    <img id="img01"src="img/memoji-hi.webp" class="rounded mx-auto d-block" alt="memoji-hi">
                 </div>
             </div>
 
         </section>
     </main>
 
-    <footer>
-        <div class="d-flex flex-column mb-3 text-center">
-            <h6>by Éverton Cordeiro</h6>
-        </div>
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
     </script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js">
-    </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
