@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Éverton Cordeiro</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
@@ -17,7 +18,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg  nav-bg">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a id="text-nav" class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -46,36 +47,39 @@
     </header>
     <main>
         <section id="home">
-            <div class="d-flex flex-row mb-3" id="screen-home">
-                <div class="p-2 text-center" id="screen-home-left-side">
+            <aside>
+                <img id="img-perfil" src="img/memoji-hi.webp" class="img-fluid" alt="memoji-hi">
+
+            </aside>
+            <article>
+                <div id="container-txt01">
                     <h2>Olá, eu sou o</h2>
                     <h1>Éverton Cordeiro</h1>
                     <p>Desenvolvedor Front-End</p>
                     <p>tech tools</p>
-                    <div class="d-flex flex-row mb-3" id="screen-home-left-side-icons">
-                        
-                     <img id="icon-html" class="icon-dev" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-          
-                     <img id="icon-css" class="icon-dev"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
-          
-                     <img id="icon-bootstrap" class="icon-dev" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" />
-          
-
-                     <img id="icon-js" class="icon-dev" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"/>
-          
-          
-                    </div>
-                    <div class="d-flex flex-row " id="div-btn-home">
-                        <button type="button" class="btn01 btn btn-warning">Download CV</button>
-                        <button type="button" class="btn01 btn btn-warning">Whatsapp</button>
-                    </div>
                 </div>
 
-                <div id="div-img01" class="p-2 d-flex ">
-                    <img id="img01"src="img/memoji-hi.webp" class="rounded mx-auto d-block" alt="memoji-hi">
-                </div>
-            </div>
+                <div id="container-icon">
 
+                    <img id="icon-html" class="icon-dev"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+
+                    <img id="icon-css" class="icon-dev"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+
+                    <img id="icon-bootstrap" class="icon-dev"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" />
+
+
+                    <img id="icon-js" class="icon-dev"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+
+                </div>
+                <div id="container-btn">
+                    <button type="button" class="btn btn-dark">Warning</button>
+                    <button type="button" class="btn btn-dark">Warning</button>
+                </div>
+            </article>
         </section>
     </main>
 
